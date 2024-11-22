@@ -26,6 +26,9 @@ public class NinjaModel {
     @Column(name = "IDADE")
     private int idade;
 
+    @Column(name = "Foto_ninja")
+    private String img;
+
     @ManyToOne
     @JoinColumn(name = "Missoes_id")
     private MissoesModel missoes;
