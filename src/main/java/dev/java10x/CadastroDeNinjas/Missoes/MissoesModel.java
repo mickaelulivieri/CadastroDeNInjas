@@ -19,10 +19,10 @@ public class MissoesModel {
     @Column(name = "ID")
     private Long id;
 
-    @Column(name = "Nome da Missão")
+    @Column(name = "Nome_da_Missão")
     private String nomeMissao;
 
-    @Column(name = "Dificuldade da missão")
+    @Column(name = "Dificuldade_da_missão")
     private String dificuldade;
 
     //significa q um ninja pode ter muitas missoes
